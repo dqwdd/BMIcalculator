@@ -33,6 +33,8 @@ class MainActivity : AppCompatActivity() {
             val height: Int = heightEditText.text.toString().toInt()
             val weight: Int = weightEditText.text.toString().toInt()
 
+
+
         }
 
     }
