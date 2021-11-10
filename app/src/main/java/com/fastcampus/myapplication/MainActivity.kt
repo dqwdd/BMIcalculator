@@ -1,5 +1,6 @@
 package com.fastcampus.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
@@ -33,7 +34,8 @@ class MainActivity : AppCompatActivity() {
             val height: Int = heightEditText.text.toString().toInt()
             val weight: Int = weightEditText.text.toString().toInt()
 
-
+            val my_intent = Intent(this, ResultActivity::class.java)
+            startActivity(my_intent)
 
         }
 
